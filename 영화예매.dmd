@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="영화예매" id="DD1A51B8-CF2E-5C8D-0CF7-DFCB7A9F5971" version="3.5">
-<createdBy>mypc</createdBy>
-<createdTime>2021-12-16 04:55:31 UTC</createdTime>
-<ownerDesignName>영화예매</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>DD1A51B8-CF2E-5C8D-0CF7-DFCB7A9F5971</designId>
-</OSDM_Design>

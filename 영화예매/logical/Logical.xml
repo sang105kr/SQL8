@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6FE5EB54-4944-9816-2D2B-5EE62B1E03F9" mainViewID="167A80AE-D4BF-E360-44C9-322DF4CCAC32">
-<createdBy>mypc</createdBy>
-<createdTime>2021-12-16 04:55:31 UTC</createdTime>
-<ownerDesignName>영화예매</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
