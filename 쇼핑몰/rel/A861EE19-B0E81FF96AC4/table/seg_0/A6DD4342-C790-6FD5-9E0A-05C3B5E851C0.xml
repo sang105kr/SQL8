@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6DD4342-C790-6FD5-9E0A-05C3B5E851C0" name="사원">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>DDC1E0B6-845E-20AC-9EBC-A21084626FA9</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="사원번호" id="45E6448C-7ADA-FE05-9A99-5D3C8D1A2054">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>71DF33DB-0151-A69A-F6B9-AC447A9DFDD9</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="사원명" id="7B6F251F-D283-B86D-0744-AECF8F81C0D5">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>73EA4BE0-5B61-5A25-204F-620CE141C23F</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="업무명" id="3877A98C-4CD4-1382-5F75-BF9D0E56A36B">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>B5BADE55-63F9-14E9-A83C-AE87264E5114</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="직속상관" id="74D60CB2-954F-1CB0-15A2-56D6BBC59CDD">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>29590CF3-D9C5-1CED-071E-828A722C60EA</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="입사일" id="591054DF-CD4A-240E-E18A-C2DE24CC0789">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>A9FCBE9E-03E2-3740-8DE0-4832600473DE</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="급여" id="A09E440B-5028-3592-8845-7B2A7B658795">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>3E6A984C-7DF8-3F5F-9040-F30E66D70CA8</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="커미션" id="26E4ABB4-3D65-85DC-541D-C1683F240537">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>8B270E96-CD47-51DE-2291-9B26E62F123F</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="부서_부서번호" id="8143B6C3-1951-E183-ECA5-F016DC50AD54">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>EF1BA4D8-6009-A801-EEED-93DC7813730D</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0189175C-0398-F75F-C7D6-88E6B872A6C3" referredColumn="5A3CF844-8A48-DC52-DF1E-1E419EC4B232"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="923EFB2A-77A9-22B4-F02F-4C7F15472B72" name="사원_PK">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>5EF7C2DB-CF55-36F8-4648-4CB4D75849AE</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45E6448C-7ADA-FE05-9A99-5D3C8D1A2054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04ECC133-0F78-DF39-C4B8-2FC0E62673DE" name="사원_부서_FK">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>5CAD0E72-CDF1-26B7-6AE0-DBE3AAF18F03</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8143B6C3-1951-E183-ECA5-F016DC50AD54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

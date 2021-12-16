@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="620AB46E-D26F-64C6-64E8-E5B6E271F643" name="customer">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>E9B90B02-8753-612C-19E5-2EEC36C917C7</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="91CB9741-84A4-E8D8-6366-C15CCEE47CD5">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>C51F6C27-03C1-ACF9-EBF0-A287BF89FD86</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pwd" id="E6E2FF95-B9CE-2EB5-8163-C19D380166F3">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>3E6EB201-2F22-BD98-7776-97631B9B2226</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="166B92B5-0997-A528-AC37-89A02E851721">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>5282F8BB-F799-9B35-9993-A8E007E6FDD3</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="1C1B6FA3-3CC3-E409-0464-06D99A01992E">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>8A29D439-53F6-1664-6259-9127B9FF7B26</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="register" id="D55294FA-4A4E-2613-A65A-5C8F65B28B59">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>857445A4-10CD-5CAD-BA15-8F7476D120A1</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="6000116C-919D-E1E6-5708-5C0FBB0B5D80">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>76F81047-2E03-1130-60DE-996531C47C3F</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD72564B-7F1C-EE8A-ACF1-B9BB4A929B27" name="customer_pk">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:30:53 UTC</createdTime>
+<generatorID>C4895C0F-18E7-E6E1-7682-1C3DFF4BB442</generatorID>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91CB9741-84A4-E8D8-6366-C15CCEE47CD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

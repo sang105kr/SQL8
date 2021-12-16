@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="5CAD0E72-CDF1-26B7-6AE0-DBE3AAF18F03">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:15:14 UTC</createdTime>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<engineerTo>
+<item key="A861EE19-6B58-EDAB-A7CB-B0E81FF96AC4" value="true"/>
+<item key="FE248A53-016A-ABEB-37D9-D42E81478BF0" value="true"/>
+</engineerTo>
+<sourcePk>05E377C1-F848-6F0C-120E-6D99867A5885</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65BBD59A-A026-94B6-60B4-B3ECAEDC50D8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDC1E0B6-845E-20AC-9EBC-A21084626FA9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

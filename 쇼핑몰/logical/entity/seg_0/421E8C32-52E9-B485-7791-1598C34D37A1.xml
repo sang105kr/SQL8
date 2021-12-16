@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="421E8C32-52E9-B485-7791-1598C34D37A1" name="상품">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:21:00 UTC</createdTime>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<engineerTo>
+<item key="A861EE19-6B58-EDAB-A7CB-B0E81FF96AC4" value="true"/>
+<item key="FE248A53-016A-ABEB-37D9-D42E81478BF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="상품코드" id="369DCB69-2EBE-8AE2-8D87-4D6E1791CE1C">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:21:07 UTC</createdTime>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<engineerTo>
+<item key="A861EE19-6B58-EDAB-A7CB-B0E81FF96AC4" value="true"/>
+<item key="FE248A53-016A-ABEB-37D9-D42E81478BF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="품명" id="444BE761-E431-00A4-2D1C-67A33F8083B5">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:21:21 UTC</createdTime>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<engineerTo>
+<item key="A861EE19-6B58-EDAB-A7CB-B0E81FF96AC4" value="true"/>
+<item key="FE248A53-016A-ABEB-37D9-D42E81478BF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="가격" id="5531F53E-ADDB-A07A-101E-0E4E2331B7F7">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:21:28 UTC</createdTime>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<engineerTo>
+<item key="A861EE19-6B58-EDAB-A7CB-B0E81FF96AC4" value="true"/>
+<item key="FE248A53-016A-ABEB-37D9-D42E81478BF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A78A5F81-8CB7-D7A1-43D7-59C5403A0C9F" name="상품 PK">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 02:21:18 UTC</createdTime>
+<ownerDesignName>쇼핑몰</ownerDesignName>
+<engineerTo>
+<item key="A861EE19-6B58-EDAB-A7CB-B0E81FF96AC4" value="true"/>
+<item key="FE248A53-016A-ABEB-37D9-D42E81478BF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>369DCB69-2EBE-8AE2-8D87-4D6E1791CE1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
