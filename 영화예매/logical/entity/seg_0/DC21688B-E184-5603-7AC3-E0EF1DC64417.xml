@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC21688B-E184-5603-7AC3-E0EF1DC64417" name="상영관">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:20:47 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="상영관번호" id="AE8FA0C5-86C3-6D4C-8A08-A69EE281D440">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:20:54 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BDC812AB-FBFE-73A0-7A4C-DC2C39AC67AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="상영관명" id="72F1C908-E5E8-D46C-95BD-463B48803412">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:21:15 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="좌석수" id="73AAA400-3E49-36A5-0C7E-5405CBC369FB">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:21:25 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="극장번호" id="4B928863-D6F3-8284-5F1D-BD9401588656">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:27:30 UTC</createdTime>
+<generatorID>D1E80357-0E8C-3D48-DDB0-21771CB79DCF</generatorID>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<referedAttribute>38310969-0669-5AD2-B6B8-F0B215FC078F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D0DF8686-B9BB-75FE-818E-04CDED2FD2E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="525E0F30-7650-DB27-8E67-30920C2747B7" name="상영관 PK">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:21:13 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE8FA0C5-86C3-6D4C-8A08-A69EE281D440</attributeRef>
+<attributeRef>4B928863-D6F3-8284-5F1D-BD9401588656</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

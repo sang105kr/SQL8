@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="상영관_좌석" directorySegmentName="seg_0" id="FE14CF8F-442A-ACD4-A05C-CCDE4EBB9177">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 05:31:33 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<sourcePk>525E0F30-7650-DB27-8E67-30920C2747B7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DC21688B-E184-5603-7AC3-E0EF1DC64417</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>269E8111-308F-FA6B-3694-72386D06DC47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

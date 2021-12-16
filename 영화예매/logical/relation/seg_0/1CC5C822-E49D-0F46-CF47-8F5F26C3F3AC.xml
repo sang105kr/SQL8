@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="환불_예매" directorySegmentName="seg_0" id="1CC5C822-E49D-0F46-CF47-8F5F26C3F3AC">
+<createdBy>mypc</createdBy>
+<createdTime>2021-12-16 06:21:18 UTC</createdTime>
+<ownerDesignName>영화예매</ownerDesignName>
+<engineerTo>
+<item key="9D976714-F363-98D9-66D8-CD09534283C4" value="true"/>
+</engineerTo>
+<sourcePk>1E59AC23-E227-0870-64F7-839A90A5B9C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>687CEA00-440D-31E3-DE0D-5AD02752CF52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C5A4627-FC9F-FF46-385F-DB3921B38E78</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
