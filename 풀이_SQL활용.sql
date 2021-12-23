@@ -13,12 +13,26 @@ select name "이름"
   from employee 
  where position = '팀장';
 
+select t2.name "이름"
+ from department t1 inner join employee t2
+                     on t1.manager = t2.empno;
+
 --4. ‘전산팀’ 부서에서 일하는 사원의 이름,주소를 보이시오.
 select t1.name "이름", t1.address "주소"
   from employee t1 inner join department t2
                    on t1.deptno = t2.deptno
  where t2.deptname = '전산팀';                   
 
+select name "이름", address "주소"
+  from employee
+ where deptno = (select deptno 
+                   from department
+                  where deptname = '전산팀');
+select name "이름", address "주소"
+ from Employee t1, Department t2
+where t1.deptno = t2.deptno
+  and deptname = '전산팀'
+  and position != '팀장';
 --5. ‘홍길동’ 팀장(manager) 부서에서 일하는 사원의 수를 보이시오.
 select count(*) "사원수"
   from employee
@@ -28,17 +42,23 @@ select count(*) "사원수"
                     and position = '팀장' )
    and name <> '홍길동';
    
-select e.name "사원명"
-  from employee t1
- where not exists ( select empno
-                      from works
-                     where empno = t1.empno );
+
                   
 --6. 프로젝트에 참여하지 않은 사원의 이름을 보이시오.
 select t1.name "사원명"
   from employee t1 left outer join works t2
                    on t1.empno = t2.empno
  where t2.projno is null;
+
+select name "사원명"
+  from employee
+ where empno <> all (select empno from works);  
+
+select t1.name "사원명"
+  from employee t1
+ where not exists ( select empno
+                      from works
+                     where empno = t1.empno );
                     
 --7. 급여 상위 TOP 3 을 보이시오.
 select rownum "순위", name "이름", salary "급여"
@@ -46,6 +66,7 @@ select rownum "순위", name "이름", salary "급여"
            from employee
        order by salary desc ) t2
 where rownum <= 3;  
+
 
 --8. 사원들이 일한 시간 수를 부서별, 사원 이름별 오름차순으로 보이시오.
 select * from works;
@@ -108,4 +129,3 @@ create index employee_name_idx on employee (name);
 --데이터사전을 통해 인덱스 생성 유무 확인 
 select *  from user_ind_columns
  where table_name =  'EMPLOYEE'; 
-
